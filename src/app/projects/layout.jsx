@@ -8,7 +8,7 @@ export async function generateMetadata(){
 const layout = ({ children }) => {
     return (
         <div>
-            
+            {children}
         </div>
     );
 };

@@ -1,9 +1,19 @@
-import React from 'react';
+import Brands from '@/components/Brands';
+import Contacts from '@/components/Contacts';
+import FeaturedProject from '@/components/FeaturedProject';
+import Hero from '@/components/Hero';
+import HowWorks from '@/components/HowWorks';
+import Stats from '@/components/Stats';
 
 const page = () => {
     return (
         <div>
-            <h1>This is first web agency page</h1>
+            <Hero/>
+            <Stats/>
+            <HowWorks/>
+            <FeaturedProject/>
+            <Contacts/>
+            <Brands/>
         </div>
     );
 };

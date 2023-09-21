@@ -1,5 +1,5 @@
 import './globals.css'
-import Footer from "@/components/Footer";
+import SiteFooter from "@/components/SiteFooter";
 import SiteNavBar from "@/components/SiteNavBar";
 import NextTopLoader from 'nextjs-toploader';
 
@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
                 <NextTopLoader color='#269669' height={3} speed={200} />
                 <SiteNavBar/>
                 {children}
-                <Footer/>
+                <SiteFooter/>
             </body>
         </html>
     )
