@@ -8,7 +8,7 @@ const Contacts = () => {
                         <a className="mb-6 inline-block text-3xl font-bold leading-none" href="#">
                             <img className="h-12" src="atis-assets/logo/atis/atis-mono-sign.svg" alt="" width="auto"/>
                         </a>
-                        <h2 className="mb-4 text-4xl md:text-5xl font-bold font-heading">
+                        <h2 className="mb-4 text-4xl md:text-5xl font-bold font-heading text-black">
                             So much more than a business analytics tool
                         </h2>
                         <p className="mb-8 text-gray-500 leading-loose">

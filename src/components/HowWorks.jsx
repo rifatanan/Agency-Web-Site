@@ -18,7 +18,7 @@ const HowWorks = () => {
                             <span className="text-green-600 font-bold">
                                 Dolor sit amet consectutar
                             </span>
-                            <h2 className="text-4xl lg:text-5xl font-bold font-heading">
+                            <h2 className="text-4xl lg:text-5xl font-bold font-heading text-black">
                                 Build &amp; Launch without problems
                             </h2>
                         </div>
@@ -28,7 +28,7 @@ const HowWorks = () => {
                                 <span className="relative mb-6 lg:mb-10 mx-auto flex w-16 h-16 items-center justify-center bg-green-600 rounded-full text-white text-2xl">
                                     1
                                 </span>
-                                <h3 className="mb-4 text-2xl font-bold font-heading">
+                                <h3 className="mb-4 text-2xl font-bold font-heading text-black">
                                     Lorem ipsum dolor sit amet consectutar
                                 </h3>
                                 <p className="text-gray-500 leading-loose">
@@ -40,7 +40,7 @@ const HowWorks = () => {
                                 <span className="mb-4 lg:mb-10 mx-auto flex w-16 h-16 items-center justify-center bg-green-600 rounded-full text-white text-2xl">
                                     2
                                 </span>
-                                <h3 className="mb-4 text-2xl font-bold font-heading">
+                                <h3 className="mb-4 text-2xl font-bold font-heading text-black">
                                     Lorem ipsum dolor sit amet consectutar
                                 </h3>
                                 <p className="text-gray-500 leading-loose">
@@ -52,7 +52,7 @@ const HowWorks = () => {
                                 <span className="mb-4 lg:mb-10 mx-auto flex w-16 h-16 items-center justify-center bg-green-600 rounded-full text-white text-2xl">
                                     3
                                 </span>
-                                <h3 className="mb-4 text-2xl font-bold font-heading">
+                                <h3 className="mb-4 text-2xl font-bold font-heading text-black">
                                     Lorem ipsum dolor sit amet consectutar
                                 </h3>
                                 <p className="text-gray-500 leading-loose">
