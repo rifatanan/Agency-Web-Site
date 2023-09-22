@@ -36,8 +36,9 @@ const FeaturedProject = async() => {
                                 Featured Projects
                             </h2>
                         </div>
-                        <a className="hidden md:inline-block py-2 px-6 rounded-l-xl rounded-t-xl bg-green-600 hover:bg-green-700 text-gray-50 font-bold leading-loose transition duration-200" href="#">
-                            View More Projects
+                        <a className="hidden md:inline-block py-2 px-6 rounded-l-xl rounded-t-xl bg-green-600 hover:bg-green-700 text-gray-50 font-bold leading-loose transition duration-200" 
+                        href="/projects">
+                            View More Projectssss
                         </a>
                     </div>
                     <div className="flex flex-wrap -mx-4 mb-4">
@@ -52,12 +53,6 @@ const FeaturedProject = async() => {
                                 )
                             })
                         }
-                    </div>
-                    <div className="text-center">
-                        <Link className="md:hidden inline-block py-2 px-6 rounded-l-xl rounded-t-xl bg-green-600 hover:bg-green-700 text-gray-50 font-bold leading-loose transition duration-200" 
-                        href="/projects">
-                            View More Projects
-                        </Link>
                     </div>
                 </div>
             </div>
