@@ -78,7 +78,7 @@ const SiteNavBar = () => {
                         </svg>
                     </li>
                     <li>
-                        <Link  className={current==="/services"?"text-sm text-green-600 font-bold":"text-sm text-gray-400 hover:text-gray-500 "} href={'/servicess'}>Services</Link>
+                        <Link  className={current==="/servicess"?"text-sm text-green-600 font-bold":"text-sm text-gray-400 hover:text-gray-500 "} href={'/servicess'}>Services</Link>
                     </li>
                     <li className='text-gray-300'>
                         <svg className='w-4 h-4 current-fill' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
@@ -121,7 +121,7 @@ const SiteNavBar = () => {
                                 <Link className='block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded' href={'/team'}>Team</Link>
                             </li>
                             <li className='mb-1'>
-                                <Link className='block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded' href={'/services'}>Services</Link>
+                                <Link className='block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded' href={'/servicess'}>Services</Link>
                             </li>
                             <li className='mb-1'>
                                 <Link className='block p-4 text-sm font-semibold text-gray-400 hover:bg-green-50 hover:text-green-600 rounded' href={'/projects'}>Projects</Link>

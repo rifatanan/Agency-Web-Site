@@ -9,7 +9,7 @@ async function getData(){
 const AllProject = async() => {
 
     const data = await getData();
-    console.log(data)
+    //console.log(data)
 
     return (
         <section>

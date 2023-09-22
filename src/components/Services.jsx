@@ -18,7 +18,7 @@ const Services = () => {
                             <div className="mb-12 lg:mb-0 w-full lg:w-1/2 flex px-4">
                                 <div className="max-w-md">
                                     <span className="text-green-600 font-bold">Dolor sit amet consectutar</span>
-                                    <h2 className="mb-6 text-4xl lg:text-5xl font-bold font-heading">
+                                    <h2 className="mb-6 text-4xl lg:text-5xl font-bold font-heading text-green-600">
                                         Build &amp; Launch without problems
                                     </h2>
                                     <div className="mb-6 max-w-sm">
@@ -57,7 +57,7 @@ const Services = () => {
                             <div className="mb-12 lg:mb-0 w-full lg:w-1/2 flex px-4">
                                 <div className="max-w-md">
                                     <span className="text-green-600 font-bold">Dolor sit amet consectutar</span>
-                                    <h2 className="mb-6 text-4xl lg:text-5xl font-bold font-heading">
+                                    <h2 className="mb-6 text-4xl lg:text-5xl font-bold font-heading text-green-600">
                                         Build &amp; Launch without problems
                                     </h2>
                                     <div className="mb-6 max-w-sm">

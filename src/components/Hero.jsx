@@ -24,7 +24,7 @@ const Hero = async() => {
                                     <div className='max-w-md mx-auto lg:mx-0'>
                                         <h2 className='mb-3 text-4xl lg:text-5xl font-bold font-heading text-black'>
                                             <span>{data['title']}</span>
-                                            <span className='text-green-600'>problems</span>
+                                            <span className='text-green-600'> problems</span>
                                         </h2>
                                     </div>
                                     <div className='max-w-sm mx-auto lg:mx-0'>

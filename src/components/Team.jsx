@@ -16,7 +16,7 @@ const Team = () => {
                     <div className="container mx-auto px-4">
                         <div className="mb-8 lg:mb-16 text-center mx-auto max-w-xl">
                             <span className="text-green-600 font-bold">Dolor sit amet consectutar</span>
-                            <h2 className="text-4xl lg:text-5xl font-bold font-heading">
+                            <h2 className="text-4xl lg:text-5xl font-bold font-heading text-black">
                                 Check our awesome team members
                             </h2>
                         </div>

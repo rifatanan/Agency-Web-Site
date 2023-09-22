@@ -9,7 +9,7 @@ const Testimonial = () => {
                                 <span className="text-green-600 font-bold">
                                     Dolor sit amet consectutar
                                 </span>
-                                <h2 className="text-4xl lg:text-5xl font-bold font-heading">
+                                <h2 className="text-4xl lg:text-5xl font-bold font-heading text-green-600">
                                     Testimonials
                                 </h2>
                             </div>
