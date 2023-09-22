@@ -1,4 +1,16 @@
-const Testimonial = () => {
+async function getData(){
+    const res = await fetch(process.env.BASE_URL+"TestimonialList");
+    if(!res.ok){
+        throw new Error("TestimonialList Calling Fail");
+    }
+    return res.json();
+}
+
+const Testimonial = async() => {
+
+    const data = await getData();
+    //console.log(data)
+
     return (
         <div>
             <section>

@@ -1,5 +1,18 @@
-"use client"
-const Contacts = () => {
+"use client";
+
+async function getData(){
+    const res = await fetch(process.env.BASE_URL+"CreateContact");
+    if(!res.ok){
+        throw new Error("CreateContact Calling Fail");
+    }
+    return res.json();
+}
+
+const Contacts = async() => {
+
+    const data = await getData();
+    //console.log(data);
+
     return (
         <section className="py-20 bg-gray-50">
             <div className="container mx-auto px-4">

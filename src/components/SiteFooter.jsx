@@ -1,5 +1,18 @@
 import Link from "next/link";
-const SiteFooter = () => {
+
+async function getData(){
+    const res = await fetch(process.env.BASE_URL+"SocialLink");
+    if(!res.ok){
+        throw new Error("SocialLink Calling Fail");
+    }
+    return res.json();
+}
+
+const SiteFooter = async() => {
+
+    const data = await getData();
+    //console.log(data)
+
     return (
         <section>
             <div className="skew skew-top mr-for-radius">

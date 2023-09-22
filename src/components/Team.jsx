@@ -1,4 +1,16 @@
-const Team = () => {
+async function getData(){
+    const res = await fetch(process.env.BASE_URL+"TeamList");
+    if(!res.ok){
+        throw new Error("TeamList Calling Fail");
+    }
+    return res.json();
+}
+
+const Team = async() => {
+
+    const data = await getData();
+    //console.log(data)
+
     return (
         <div>
             <section>

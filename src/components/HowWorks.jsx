@@ -1,4 +1,16 @@
-const HowWorks = () => {
+async function getData(){
+    const res = await fetch(process.env.BASE_URL+"WorkList");
+    if(!res.ok){
+        throw new Error("WorkList Calling Fail");
+    }
+    return res.json();
+}
+
+const HowWorks = async () => {
+
+    const data = await getData();
+    //console.log(data)
+    
     return (
         <div>
             <section>
