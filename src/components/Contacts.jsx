@@ -1,16 +1,8 @@
 "use client";
 
-async function getData(){
-    const res = await fetch(process.env.BASE_URL+"CreateContact");
-    if(!res.ok){
-        throw new Error("CreateContact Calling Fail");
-    }
-    return res.json();
-}
-
 const Contacts = async() => {
 
-    const data = await getData();
+    //const data = await getData();
     //console.log(data);
 
     return (

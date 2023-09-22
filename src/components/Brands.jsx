@@ -9,6 +9,7 @@ async function getData(){
 const Brands = async() => {
 
     const data = await getData();
+    //console.log(data)
 
     return (
         <section className="py-20">

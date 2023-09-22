@@ -52,7 +52,6 @@ const FeaturedProject = async() => {
                                 )
                             })
                         }
-                        
                     </div>
                     <div className="text-center">
                         <Link className="md:hidden inline-block py-2 px-6 rounded-l-xl rounded-t-xl bg-green-600 hover:bg-green-700 text-gray-50 font-bold leading-loose transition duration-200" 
